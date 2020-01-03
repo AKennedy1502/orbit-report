@@ -13,8 +13,8 @@ export class Satellite {
         this.operational = operational
     }
     shouldShowWarning(): boolean {
-        let lowerCaseSpaceDebris = this.type.toLowerCase();
-        if (lowerCaseSpaceDebris === "space debris"){
+        let noCaseSpaceDebris = this.type.toLowerCase();
+        if (noCaseSpaceDebris === "space debris"){
             return true;
             } else
             return false;
